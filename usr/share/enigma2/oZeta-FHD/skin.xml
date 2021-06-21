@@ -120,7 +120,7 @@
 		<parameter name="ChoicelistName"             value="80,3,1000,40"/>
 		<parameter name="ChoicelistDash"             value="0,2,700,2"/>
 		<parameter name="ConfigListSlider"           value="10,3"/>
-		<parameter name="ConfigListSeperator"        value="1400"/>
+		<parameter name="ConfigListSeperator"        value="1000"/>
 		<parameter name="DreamexplorerName" 	     value="70,2,1200,50"/>
 		<parameter name="DreamexplorerIcon" 	     value="10,5,40,40"/>
 		<parameter name="EpgListIcon"                value="2,12,25,25,2"/>
