@@ -118,7 +118,7 @@
 	<screen name="ScriptExecuter" position="0,0" size="1920,1080" title="Script" backgroundColor="#ff000000" flags="wfNoBorder">>
 		<panel name="LayerMenu1000" />
 		<panel name="cR"/>
-		<widget source="list" render="Listbox" position="230,150" size="810,680" scrollbarWidth="10" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
+		<widget source="list" render="Listbox" position="230,150" size="810,680" font="Regular;32" scrollbarWidth="10" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
 			<convert type="StringList" />
 		</widget>
 		<widget name="labstatus" position="220,880" size="810,40" font="Regular;28" valign="center" noWrap="1" backgroundColor="yellow" foregroundColor="#FFC000" transparent="1" />

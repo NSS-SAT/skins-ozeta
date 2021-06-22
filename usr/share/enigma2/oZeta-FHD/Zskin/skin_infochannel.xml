@@ -282,13 +282,13 @@
 			<convert type="ConditionalShowHide"/>
 		</widget>
 		<ePixmap pixmap="oZeta-FHD/buttons/button_green.png"  position="260,1035" size="25,25"  alphatest="blend" scale="1" zPosition="2" />
-                <eLabel  text="Plugins"                               position="300,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
+                <eLabel  text="..."                               position="300,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oZeta-FHD/buttons/button_yellow.png" position="460,1035" size="25,25"  alphatest="blend" scale="1" zPosition="2" />
                 <eLabel  text="Audio"                                 position="500,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oZeta-FHD/buttons/button_blue.png"   position="660,1035" size="25,25"  alphatest="blend" scale="1" zPosition="2" />
-                <eLabel  text="Extensions"                            position="700,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
+                <eLabel  text="NSS Panel"                            position="700,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oZeta-FHD/buttons/button_red.png"    position="860,1035" size="25,25"  alphatest="blend" scale="1" zPosition="2" />
-                <eLabel  text="Info"                                  position="900,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
+                <eLabel  text="..."                                  position="900,1035" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 	</screen>
 
 	<screen name="SecondInfoBar" title="Second Infobar" position="0,0" size="1920,1080" backgroundColor="#FF000000" flags="wfNoBorder">
