@@ -917,7 +917,7 @@
 		<panel name="LayerMenu1000" />
 		<panel name="cR"/>
 		<ePixmap position="230,150"  size="182,80" pixmap="oZeta-FHD/icons/wifi.png" alphatest="blend"/>
-		<widget name="statuspic" position="390,200" size="40,40" pixmaps="oZeta-FHD/icons/wifi-on.png,oZeta-FHDicons/wifi-off.png" transparent="1" alphatest="blend" zPosition="10" />
+		<widget name="statuspic" position="390,200" size="40,40" pixmaps="oZeta-FHD/icons/wifi-on.png,oZeta-FHD/icons/wifi-off.png" transparent="1" alphatest="blend" zPosition="10" />
 		<widget source="LabelBSSID" render="Label"   position="450,155" size="380,37" valign="center" font="Regular;30" transparent="1" foregroundColor="#ffffff" backgroundColor="#000000" />
 		<widget source="BSSID" render="Label"        position="450,191" size="380,37" valign="center" font="Regular;30" transparent="1" foregroundColor="#ffff00" backgroundColor="#000000" />
 		<eLabel position="230,260" size="810,3" backgroundColor="#202020" zPosition="1" />
