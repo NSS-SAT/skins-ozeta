@@ -377,9 +377,9 @@
 		<ePixmap pixmap="oZeta-FHD/buttons/button_yellow.png" position="270,1005" size="30,30"  alphatest="blend" zPosition="2" />
                 <eLabel  text="Audio"                                 position="310,1005" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oZeta-FHD/buttons/button_blue.png"   position="490,1005" size="30,30"  alphatest="blend" zPosition="2" />
-                <eLabel  text="Extensions"                            position="530,1005" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
+                <eLabel  text="NSS Panel"                            position="530,1005" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<ePixmap pixmap="oZeta-FHD/buttons/button_red.png"    position="710,1005" size="30,30"  alphatest="blend" zPosition="2" />
-                <eLabel  text="Info"                                  position="750,1005" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
+                <eLabel  text="Info Memory"                                  position="750,1005" size="150,30" font="Regular;24" foregroundColor="#FFFFFF" backgroundColor="#000000" transparent="1" zPosition="1" />
 		<!-- Audio icon (is there multichannel audio?) -->
 		<ePixmap pixmap="icons/ico_dolby_off.png" position="990,1010" size="130,30" zPosition="3" alphatest="blend" scale="1" />
 		<widget source="session.CurrentService" render="Pixmap" pixmap="icons/ico_dolby_on.png" position="990,1010" size="130,30" zPosition="4" alphatest="blend" scale="1" >
