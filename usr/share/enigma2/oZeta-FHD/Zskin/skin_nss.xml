@@ -101,6 +101,8 @@
 	<screen name="RemoveAddons" position="0,0" size="1920,1080" title="Remove Addons" backgroundColor="#ff000000" flags="wfNoBorder">
 		<panel name="LayerMenu1000" />
 		<panel name="cR"/>
+		<widget name="list" position="230,150" size="810,640" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1"/>
+<!--
 		<widget source="list" render="Listbox" position="230,150" size="810,680" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
 			<convert type="TemplatedMultiContent">
 				{"template": [
@@ -111,6 +113,7 @@
 				}
 			</convert>
 		</widget>
+-->
 		<widget source="conn" render="Label" position="230,870" size="810,40" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1" />
 	</screen>
 
