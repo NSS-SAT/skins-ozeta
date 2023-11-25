@@ -41,7 +41,7 @@
     <screen name="NSSCamsManager" position="0,0" size="1920,1080" title="Cam Manager" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="LayerMenu1000"/>
         <panel name="cvRGYB"/>
-        <widget name="info" position="225,554" size="813,68" font="Regular; 18" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="7"/>
+        <widget name="info" position="225,554" size="813,68" font="Regular; 20" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="7"/>
         <widget name="ecm" position="225,625" size="813,326" font="Regular; 22" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
         <widget name="list" position="230,150" size="810,395" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1"/>
     </screen>
@@ -112,14 +112,14 @@
         <widget source="conn" render="Label" position="230,870" size="810,40" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1"/>
     </screen>
     <!-- ************* Script ************* -->
-    <screen name="ScriptExecuter" position="0,0" size="1920,1080" title="Script" backgroundColor="#ff000000" flags="wfNoBorder">>
+<!--     <screen name="ScriptExecuter" position="0,0" size="1920,1080" title="Script" backgroundColor="#ff000000" flags="wfNoBorder">>
 		<panel name="LayerMenu1000"/>
         <panel name="cRG"/>
         <widget source="list" render="Listbox" position="230,150" size="810,680" font="Regular;32" scrollbarWidth="10" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
             <convert type="StringList"/>
         </widget>
         <widget name="labstatus" position="220,880" size="810,40" font="Regular;28" valign="center" noWrap="1" backgroundColor="yellow" foregroundColor="#FFC000" transparent="1"/>
-    </screen>
+    </screen> -->
     <!-- ************* Download ************* -->
     <screen name="NssDownloader" position="center,center" size="607,185" title="Remove Addons">
         <widget source="fname" render="Label" position="19,7" size="580,75" font="Regular;30" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1"/>
@@ -127,10 +127,4 @@
         <widget source="status" render="Label" position="19,102" zPosition="3" size="580,75" font="Regular;30" halign="center" backgroundColor="blue" transparent="1"/>
     </screen>
 </skin>
-
-
-				
-		
-	
-
 
