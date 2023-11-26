@@ -45,7 +45,133 @@
         <widget name="ecm" position="225,625" size="813,326" font="Regular; 22" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5"/>
         <widget name="list" position="230,150" size="810,395" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1"/>
     </screen>
-    <!-- ************* CAM Manager ************* -->
+    
+    <!-- ************* HomeNss************* -->
+    <screen name="HomeNss" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="LayerMenu1000" />
+        <panel name="cvRGYB" />    
+        <widget name="list" position="230,200" size="810,676" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1" />
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nssaddon/res/pics/key_menu.png" position="946,150" size="80,35" zPosition="10" />
+        <widget name="info" position="230,897" size="809,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5" />
+        <widget name="statusgreen" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nssaddon/res/pics/status-on.png" alphatest="blend" position="662,154" size="40,40" zPosition="5" />
+        <widget name="statusred" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nssaddon/res/pics/status-off.png" alphatest="blend" position="661,155" size="40,40" zPosition="5" />	
+        <widget name="status" position="234,147" size="420,50" font="Regular; 40" foregroundColor="#ffb75b" backgroundColor="#101010" halign="right" transparent="1" zPosition="4" />
+    </screen>
+
+    <!-- ************* nssConfig************* -->
+    <screen name="nssConfig" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="LayerMenu1000" />
+        <panel name="cvRGYB" />    
+        <widget name="config" position="230,200" size="810,219"  itemHeight="40" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1" />
+        
+        <widget name="info" position="230,435" size="809,512" font="Regular; 26" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5" />
+        <widget name="description" position="231,137" size="809,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5" />
+        
+        <!--
+         <widget name="statusgreen" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nssaddon/res/pics/status-on.png" alphatest="blend" position="662,154" size="40,40" zPosition="5" />
+        <widget name="statusred" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nssaddon/res/pics/status-off.png" alphatest="blend" position="661,155" size="40,40" zPosition="5" />	
+        <widget name="status" position="234,147" size="420,50" font="Regular; 40" foregroundColor="#ffb75b" backgroundColor="#101010" halign="right" transparent="1" zPosition="4" />
+        -->
+    </screen>
+
+    <!-- ************* Categories************* -->
+    <screen name="Categories" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="LayerMenu1000" />
+        <panel name="cvRGYB" />    
+        <widget name="list" position="230,200" size="810,583" scrollbarWidth="10" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1" />
+        <ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/nssaddon/res/pics/key_menu.png" position="946,150" size="80,35" zPosition="10" />
+        <widget name="info" position="230,897" size="809,50" font="Regular;30" halign="center" valign="center" foregroundColor="yellow" backgroundColor="#202020" transparent="0" zPosition="5" />
+        <widget name="progress" position="490,995" size="300,50" foregroundColor="#2a70a4" backgroundColor="#10000000" transparent="1" zPosition="5" />
+        <widget source="progresstext" render="Label" font="Regular;20" position="490,995" size="300,50" backgroundColor="#202020" transparent="1" halign="center" zPosition="6" />
+        <widget name="pth" position="228,802" size="808,90" font="Regular; 32" halign="left" foregroundColor="yellow" backgroundColor="#20000000" transparent="1" zPosition="5" />
+        <widget name="pform" position="233,129" size="800,68" font="Regular; 32" foregroundColor="#ffb75b" backgroundColor="#101010" halign="left" transparent="1" zPosition="2" />
+    </screen>
+
+    <!-- ************* NssDailySetting************* -->
+    <screen name="NssDailySetting" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+
+    <!-- ************* SettingVhan************* -->
+    <screen name="SettingVhan" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SettingVhan2************* -->
+    <screen name="SettingVhan2" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* Milenka61************* -->
+    <screen name="Milenka61" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+
+    <!-- ************* SettingManutek************* -->
+    <screen name="SettingManutek" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SettingMorpheus************* -->
+    <screen name="SettingMorpheus" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SettingCiefp************* -->
+    <screen name="SettingCiefp" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SettingBi58************* -->
+    <screen name="SettingBi58" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SettingPredrag************* -->
+    <screen name="SettingPredrag" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SettingCyrus************* -->
+    <screen name="SettingCyrus" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* NssInstall************* -->
+    <screen name="NssInstall" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* NssIPK************* -->
+    <screen name="NssIPK" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* NssRemove************* -->
+    <screen name="NssRemove" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>
+    <!-- ************* SelectPiconz************* -->
+    <screen name="SelectPiconz" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>    
+    <!-- ************* MMarkFolderz************* -->
+    <screen name="MMarkFolderz" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>      
+    <!-- ************* MMarkPiconsf************* -->
+    <screen name="MMarkPiconsf" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>       
+    <!-- ************* MMarkPiconsf************* -->
+    <screen name="MMarkPiconsf" position="0,0" size="1920,1080" title="NSS Addon Manager" backgroundColor="#ff000000" flags="wfNoBorder">
+        <panel name="Categories" />
+    </screen>  
+
+    <!-- ************* Script ************* -->
+    <screen name="ScriptExecuter" position="0,0" size="1920,1080" title="Script" backgroundColor="#ff000000" flags="wfNoBorder">>
+		<panel name="LayerMenu1000"/>
+        <panel name="cRG"/>
+        <widget source="list" render="Listbox" position="230,150" size="810,680" font="Regular;32" scrollbarWidth="10" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
+            <convert type="StringList"/>
+        </widget>
+        <widget name="labstatus" position="220,880" size="810,40" font="Regular;28" valign="center" noWrap="1" backgroundColor="yellow" foregroundColor="#FFC000" transparent="1"/>
+    </screen>
+
+
+
+
+    <!-- ************* OLD CAM Manager ************* -->
     <screen name="ListaFile" position="0,0" size="1920,1080" title="Downloads" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="LayerMenu1000"/>
         <panel name="cRG"/>
@@ -60,7 +186,7 @@
         </widget>
         <widget source="conn" render="Label" position="230,890" size="810,40" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1"/>
     </screen>
-    <!-- ************* Downloads ************* -->
+    <!-- ************* old Downloads ************* -->
     <screen name="DownloadFile" position="0,0" size="1920,1080" title="Downloads" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="LayerMenu1000"/>
         <panel name="cRG"/>
@@ -76,7 +202,7 @@
         </widget>
         <widget source="conn" render="Label" position="230,890" size="810,40" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1"/>
     </screen>
-    <!-- ************* Manual Install ************* -->
+    <!-- ************* old Manual Install ************* -->
     <screen name="ManualInstall" position="0,0" size="1920,1080" title="Manual Install" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="LayerMenu1700"/>
         <panel name="cRGYB"/>
@@ -92,7 +218,7 @@
         </widget>
         <widget source="conn" render="Label" position="230,870" size="810,40" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1"/>
     </screen>
-    <!-- ************* Remove Addons ************* -->
+    <!-- ************* old Remove Addons ************* -->
     <screen name="RemoveAddons" position="0,0" size="1920,1080" title="Remove Addons" backgroundColor="#ff000000" flags="wfNoBorder">
         <panel name="LayerMenu1000"/>
         <panel name="cR"/>
@@ -111,15 +237,7 @@
 -->
         <widget source="conn" render="Label" position="230,870" size="810,40" font="Regular;32" halign="left" valign="center" foregroundColor="yellow" backgroundColor="#000000" transparent="1"/>
     </screen>
-    <!-- ************* Script ************* -->
-<!--     <screen name="ScriptExecuter" position="0,0" size="1920,1080" title="Script" backgroundColor="#ff000000" flags="wfNoBorder">>
-		<panel name="LayerMenu1000"/>
-        <panel name="cRG"/>
-        <widget source="list" render="Listbox" position="230,150" size="810,680" font="Regular;32" scrollbarWidth="10" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#000000" transparent="1">
-            <convert type="StringList"/>
-        </widget>
-        <widget name="labstatus" position="220,880" size="810,40" font="Regular;28" valign="center" noWrap="1" backgroundColor="yellow" foregroundColor="#FFC000" transparent="1"/>
-    </screen> -->
+
     <!-- ************* Download ************* -->
     <screen name="NssDownloader" position="center,center" size="607,185" title="Remove Addons">
         <widget source="fname" render="Label" position="19,7" size="580,75" font="Regular;30" halign="center" valign="center" foregroundColor="blue" backgroundColor="black" transparent="1"/>
